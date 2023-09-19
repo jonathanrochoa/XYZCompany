@@ -40,6 +40,11 @@ namespace XYZCompany.Services
 
         public async Task<TitleResponse> Create(TitleRequest request)
         {
+            if(string.IsNullOrEmpty(request.Description))
+            {
+                throw new Exception("Description cannot be empty.");
+            }
+
             var title = new Title
             {
                 Description = request.Description
