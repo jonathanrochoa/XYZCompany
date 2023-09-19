@@ -25,7 +25,7 @@ var app = builder.Build();
 
 var scope = app.Services.CreateScope();
 var context = scope.ServiceProvider.GetRequiredService<XYZCompanyContext>();
-context.Database.EnsureCreated();
+context.Database.Migrate();
 
 
 //error handling / validation
