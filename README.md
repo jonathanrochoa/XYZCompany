@@ -98,8 +98,8 @@ Retrieve a specific job title by its ID.
   Create a new employee by sending a JSON request body with the following fields:
   ```json
   {
-    "name": "Software Developer",
-    "description": "A software developer's job title."
+    "name": "Alexander Hamilton",
+    "description": "The first secretary of the treasury."
   }
   ```
 
