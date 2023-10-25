@@ -1,6 +1,6 @@
 # XYZCompany
 
-##Introduction
+## Introduction
 Web API, employee management application for XYZCompany created for learning purposes using .NET Core
 
 The Employee Management API is a .NET Core application that serves as a simple platform for managing basic employee information such as name and job titles. This project was developed for educational purposes to demonstrate the creation of a RESTful API using .NET Core and Entity Framework Core with MSSQLLocalDB.
@@ -99,12 +99,13 @@ Retrieve a specific job title by its ID.
 
 Update an existing job title by its ID. Send a JSON request body with the fields you want to update.
 
-####Delete a Job Title
+#### Delete a Job Title
 - **DELETE /titles/{id}
 
 Delete a job title by its ID.
 
 
+## Example
 
 ![XYZCompanyDataFlow](https://github.com/jonathanrochoa/XYZCompany/assets/49356114/1ceb5fd3-7f67-4b56-b912-fed69dd9fded)
 
