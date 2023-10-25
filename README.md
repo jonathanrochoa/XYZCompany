@@ -23,11 +23,15 @@ To run this project, you'll need the following software installed on your machin
 git clone [https://github.com/jonathanrochoa/XYZCompany](https://github.com/jonathanrochoa/XYZCompany.git)
 2. Open the solution in Visual Studio or your code editor.
 3. In the appsettings.json file, configure the connection string to your MSSQLLocalDB or database server:
+
+  ```json
   {
     "ConnectionStrings": {
       "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=EmployeeManagementDb;Trusted_Connection=True;"
     },
   }
+  ```
+  
 4. Build and run the application
    dotnet run
 
@@ -61,6 +65,7 @@ git clone [https://github.com/jonathanrochoa/XYZCompany](https://github.com/jona
     "lastName": "Doe",
     "titleId": "TitleIdHere"
   }
+  ```
 
 #### Update an Existing Employee
 - **PUT /employees/{id}
@@ -93,6 +98,7 @@ Retrieve a specific job title by its ID.
     "name": "Software Developer",
     "description": "A software developer's job title."
   }
+  ```
 
 #### Update an Existing Job Title
 - **PUT /titles/{id}
