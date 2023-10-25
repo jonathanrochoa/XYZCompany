@@ -20,7 +20,7 @@ To run this project, you'll need the following software installed on your machin
 
 ## Installation
 1. Clone this repository to your local machine.
-git clone https://github.com/your-username/employee-management-api.git
+git clone [https://github.com/your-username/employee-management-api](https://github.com/jonathanrochoa/XYZCompany.git)
 2. Open the solution in Visual Studio or your code editor.
 3. In the appsettings.json file, configure the connection string to your MSSQLLocalDB or database server:
   {
@@ -87,12 +87,11 @@ Retrieve a specific job title by its ID.
 #### Create a New Job Title
 - **POST /titles
 
-Create a new job title by sending a JSON request body with the following fields:
+  Create a new employee by sending a JSON request body with the following fields:
   ```json
   {
-    "firstName": "John",
-    "lastName": "Doe",
-    "titleId": "TitleIdHere"
+    "name": "Software Developer",
+    "description": "A software developer's job title."
   }
 
 #### Update an Existing Job Title
