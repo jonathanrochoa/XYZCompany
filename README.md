@@ -33,7 +33,10 @@ git clone [https://github.com/jonathanrochoa/XYZCompany](https://github.com/jona
   ```
   
 4. Build and run the application
+
+   ```
    dotnet run
+   ```
 
 
 ## API Endpoint Usage
