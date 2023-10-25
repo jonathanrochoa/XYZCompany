@@ -64,7 +64,7 @@ git clone [https://github.com/jonathanrochoa/XYZCompany](https://github.com/jona
   Create a new employee by sending a JSON request body with the following fields:
   ```json
   {
-    "firstName": "Alexande",
+    "firstName": "Alexander",
     "lastName": "Hamilton",
     "titleId": "01"
   }
