@@ -64,9 +64,9 @@ git clone [https://github.com/jonathanrochoa/XYZCompany](https://github.com/jona
   Create a new employee by sending a JSON request body with the following fields:
   ```json
   {
-    "firstName": "John",
-    "lastName": "Doe",
-    "titleId": "TitleIdHere"
+    "firstName": "Alexande",
+    "lastName": "Hamilton",
+    "titleId": "01"
   }
   ```
 
@@ -98,8 +98,8 @@ Retrieve a specific job title by its ID.
   Create a new employee by sending a JSON request body with the following fields:
   ```json
   {
-    "name": "Alexander Hamilton",
-    "description": "The first secretary of the treasury."
+    "name": "Secretary of the Treasury",
+    "description": "formulate and recommend domestic and international financial, economic, and tax policy."
   }
   ```
 
