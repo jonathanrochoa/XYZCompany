@@ -105,9 +105,11 @@ Update an existing job title by its ID. Send a JSON request body with the fields
 Delete a job title by its ID.
 
 
-## Example
+## Architecture
 
 ![XYZCompanyDataFlow](https://github.com/jonathanrochoa/XYZCompany/assets/49356114/1ceb5fd3-7f67-4b56-b912-fed69dd9fded)
+
+## Example
 
 Working API
 Request to POST data to titles:
