@@ -5,12 +5,12 @@ Web API, employee management application for XYZCompany created for learning pur
 
 The Employee Management API is a .NET Core application that serves as a simple platform for managing basic employee information such as name and job titles. This project was developed for educational purposes to demonstrate the creation of a RESTful API using .NET Core and Entity Framework Core with MSSQLLocalDB.
 
-##eatures
+## Features
 - Create, Read, Update, and Delete (CRUD) operations for employee data.
 - Retrieve a list of available job titles.
 - Secure endpoints using JWT-based authentication.
 
-##Getting Started
+## Getting Started
 Prerequisites
 To run this project, you'll need the following software installed on your machine:
 
@@ -18,7 +18,7 @@ To run this project, you'll need the following software installed on your machin
 -Visual Studio or your preferred code editor
 -MSSQLLocalDB (or a connection to your MSSQL database)
 
-##Installation
+## Installation
 1. Clone this repository to your local machine.
 git clone https://github.com/your-username/employee-management-api.git
 2. Open the solution in Visual Studio or your code editor.
@@ -62,43 +62,46 @@ git clone https://github.com/your-username/employee-management-api.git
     "titleId": "TitleIdHere"
   }
 
-Update an Existing Employee
-PUT /employees/{id}
+#### Update an Existing Employee
+- **PUT /employees/{id}
 
 Update an existing employee by their ID. Send a JSON request body with the fields you want to update.
 
-Delete an Employee
-DELETE /employees/{id}
+#### Delete an Employee
+- **DELETE /employees/{id}
 
 Delete an employee by their ID.
 
-##Titles
-Retrieve All Job Titles
-GET /titles
+## Titles
+
+#### Retrieve All Job Titles
+- **GET /titles
 
 Retrieve a list of available job titles.
 
-Retrieve Job Title by ID
-GET /titles/{id}
+#### Retrieve Job Title by ID
+- **GET /titles/{id}
 
 Retrieve a specific job title by its ID.
 
-Create a New Job Title
-POST /titles
+#### Create a New Job Title
+- **POST /titles
 
 Create a new job title by sending a JSON request body with the following fields:
-{
-  "name": "Software Developer",
-  "description": "A software developer's job title."
-}
+  ```json
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "titleId": "TitleIdHere"
+  }
 
-Update an Existing Job Title
-PUT /titles/{id}
+#### Update an Existing Job Title
+- **PUT /titles/{id}
 
 Update an existing job title by its ID. Send a JSON request body with the fields you want to update.
 
-Delete a Job Title
-DELETE /titles/{id}
+####Delete a Job Title
+- **DELETE /titles/{id}
 
 Delete a job title by its ID.
 
