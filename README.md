@@ -20,7 +20,7 @@ To run this project, you'll need the following software installed on your machin
 
 ## Installation
 1. Clone this repository to your local machine.
-git clone [https://github.com/your-username/employee-management-api](https://github.com/jonathanrochoa/XYZCompany.git)
+git clone [https://github.com/jonathanrochoa/XYZCompany](https://github.com/jonathanrochoa/XYZCompany.git)
 2. Open the solution in Visual Studio or your code editor.
 3. In the appsettings.json file, configure the connection string to your MSSQLLocalDB or database server:
   {
