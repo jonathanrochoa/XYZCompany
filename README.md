@@ -14,9 +14,9 @@ The Employee Management API is a .NET Core application that serves as a simple p
 Prerequisites
 To run this project, you'll need the following software installed on your machine:
 
--.NET Core SDK (version x.x or later)
--Visual Studio or your preferred code editor
--MSSQLLocalDB (or a connection to your MSSQL database)
+- .NET Core SDK
+- Visual Studio or your preferred code editor
+- MSSQLLocalDB (or a connection to your MSSQL database)
 
 ## Installation
 1. Clone this repository to your local machine.
